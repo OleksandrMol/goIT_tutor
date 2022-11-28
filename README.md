@@ -1,1 +1,1 @@
-# goIT_tutor
+# goit-markup-hw-02
