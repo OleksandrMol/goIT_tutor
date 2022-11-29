@@ -7,7 +7,7 @@
   --active-color: #2196f3;
 
   --background-section: #2f303a;
-  --main-backgroun: #f5f5f5;
+
   --secondary-backgroun: #f5f4fa;
 }
 
@@ -31,17 +31,20 @@ nav > ul {
   font-size: 26px;
   line-height: 1.383;
 }
+
 .logo-end {
   color: #000;
 }
-
+.context-section .logo-end {
+  color: var(--accent-color);
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.714;
   color: var(--text-color);
   letter-spacing: 0.03em;
-  background-color: var(--main-backgroun);
+  background-color: var(--accent-color);
 }
 header {
   background-color: var(--accent-color);
@@ -76,7 +79,7 @@ header {
 }
 .contact {
   font-style: normal;
-  color: var(--accent-color) 60%;
+  color: rgba(255, 255, 255, 0.6);
 }
 .contact:hover,
 .contact:focus {
@@ -116,18 +119,17 @@ header {
   font-family: inherit;
   cursor: pointer;
   border-style: none;
+  border-radius: 4px;
   letter-spacing: 0.03em;
 }
-.button.current {
-  color: var(--active-color);
-}
+
 .button:hover,
 .button:focus {
   background-color: var(--active-color);
   color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+  
 }
 .hero-button {
   background-color: var(--active-color);
