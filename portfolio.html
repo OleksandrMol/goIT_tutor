@@ -9,22 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="/"
-          ><span class="logo logo-web">Web</span
-          ><span class="logo logo-end">Studio</span>
+        <a href="./index.html" class="logo logo-web"
+          ><span>Web</span><span class="logo-end">Studio</span>
         </a>
         <ul>
-          <li><a class="main-links" href="/index.html">Студія</a></li>
-          <li><a class="main-links" href="#">Портфоліо</a></li>
+          <li><a class="main-links" href="./index.html">Студія</a></li>
+          <li>
+            <a class="main-links current" href="./portfolio.html">Портфоліо</a>
+          </li>
           <li><a class="main-links" href="#">Контакти</a></li>
         </ul>
       </nav>
@@ -45,7 +46,7 @@
     <main>
       <section>
         <ul>
-          <li><button class="button" type="button">Усі</button></li>
+          <li><button class="button current" type="button">Усі</button></li>
           <li><button class="button" type="button">Веб-сайти</button></li>
           <li><button class="button" type="button">Додатки</button></li>
           <li><button class="button" type="button">Дизайн</button></li>
@@ -53,7 +54,7 @@
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="title-list">
           <li>
             <img
               src="/images/desktop.jpg"
@@ -148,7 +149,7 @@
       </section>
     </main>
     <footer class="context-section">
-      <a href="/"
+      <a href="./index.html"
         ><span class="logo logo-web">Web</span
         ><span class="logo logo-end">Studio</span></a
       >
@@ -156,7 +157,7 @@
         <ul>
           <li>
             <a
-              class="contact-links contact-adress"
+              class="contact-adress"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -164,14 +165,12 @@
             >
           </li>
           <li>
-            <a class="contact-links contact" href="mailto:info@devstudio.com"
+            <a class="contact" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contact-links contact" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>

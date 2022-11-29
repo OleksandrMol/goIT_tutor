@@ -8,16 +8,16 @@
     <!-- Front -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
   <body>
     <header>
       <nav>
-      <a href="/"><span class="logo logo-web">Web</span><span class="logo logo-end">Studio</span> </a>
+      <a href="./index.html" class="logo logo-web"><span >Web</span><span class="logo-end">Studio</span> </a>
        <ul>
-         <li><a class="main-links" href="#">Студія</a></li>
-         <li><a class="main-links" href="/portfolio.html">Портфоліо</a></li>
+         <li><a class="main-links current" href="./index.html">Студія</a></li>
+         <li><a class="main-links" href="./portfolio.html">Портфоліо</a></li>
          <li><a class="main-links" href="#">Контакти</a></li>
          </ul>
       </nav>
@@ -35,7 +35,7 @@
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <section>
-        <!-- <h2>Наші особливості</h2> -->
+        <h2 class="visually-hidden">Наші особливості</h2>
         <ul>
           <li>
             <h3 class="benefits">УВАГА ДО ДЕТАЛЕЙ</h3> 
@@ -59,16 +59,16 @@
       <section>
         <h2 class="inform-title">Чим ми займаємося</h2>
         <ul>
-       <li> <img src="/images/workcode.jpg" alt="Робоче місце з кодом на комп'ютері" width="370" height="294"></li>
+       <li> <img src="./images/workcode.jpg" alt="Робоче місце з кодом на комп'ютері" width="370" height="294"></li>
        <li> <img src="./images/mobviews.jpg" alt="Робоче місце з розробкою для мобільного" width="370" height="294"></li>
       <li><img src="./images/colors.jpg" alt=" Кольорова палітна на планшеті" width="370" height="294"></li>
        </ul>
       </section>
 
-      <section>
+      <section class="team-section">
         <h2 class="inform-title">Наша команда</h2>
 
-        <ul>
+        <ul class="team-list">
           <li>
             <img src="./images/Igor.jpg" alt="Бородатий чолові з окулярами, в коричневій сорочці" width="270" height="260">
             <h3 class="team">Ігор Дем'яненко</h3>
@@ -97,12 +97,12 @@
     </main>
 
     <footer class="context-section">
-      <a href="/"><span class="logo logo-web">Web</span><span class="logo logo-end">Studio</span></a>
+      <a href="./index.html"><span class="logo logo-web">Web</span><span class="logo logo-end">Studio</span></a>
       <address>
         <ul>
-          <li><a class="contact-links contact-adress" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a class="contact-links contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contact-links contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a class="contact-adress" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class=" contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
 
